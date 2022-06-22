@@ -17,8 +17,7 @@
     color: white;
     padding: 20px;
     border-radius: 0.5rem;
-  
-
+    margin: 10px;
   }
   .secondary {
     background-color: white;
@@ -26,6 +25,7 @@
     padding: 20px;
     color: brown;
     border-radius: 0.5rem;
+    margin: 10px;
   }
   .danger {
     background-color: tomato;

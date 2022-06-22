@@ -10,7 +10,7 @@ function App() {
       <Button variant='primary' size='large'>
         Primary
       </Button>
-      <Button variant='secondary' size='small'>
+      <Button variant='secondary' size='large'>
         Secondary
       </Button>
       <h2>NOTIFICATIONS</h2>
