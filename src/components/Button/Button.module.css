@@ -1,4 +1,4 @@
-.btn {
+/* .btn {
     border: none;
     color: #fff;
     padding: 0.8em 1.6em;
@@ -8,16 +8,24 @@
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-  }
+  } */
   /* variant */
+
   .primary {
-    background-color: #008cba;
-    padding: 40px;
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    padding: 20px;
+    border-radius: 0.5rem;
+  
 
   }
   .secondary {
-    background-color: #e7e7e7;
-    color: #333;
+    background-color: white;
+    border: 1px solid brown;
+    padding: 20px;
+    color: brown;
+    border-radius: 0.5rem;
   }
   .danger {
     background-color: tomato;

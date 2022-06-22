@@ -6,7 +6,7 @@ function Button({ children, variant = 'primary', size = 'medium', customFontSize
     fontSize: customFontSize + 'px',
   };
   return (
-    <button style={customFontSize ? styles : {}} className={`${css.btn} ${css[variant] || ''} ${css[size] || ''}`}>
+    <button onClick={children} type='submit' style={customFontSize ? styles : {}} className={`${css.btn} ${css[variant] || ''} ${css[size] || ''}`}>
       {children}
     </button>
   );
@@ -15,7 +15,7 @@ function Button({ children, variant = 'primary', size = 'medium', customFontSize
 Button.propTypes = {
   children: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  variant: PropTypes.oneOf(['primary', 'secondary', 'danger']),
+  variant: PropTypes.oneOf(['primary', 'secondary']),
   customFontSize: PropTypes.number,
 };
 
