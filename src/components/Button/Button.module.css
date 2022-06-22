@@ -12,6 +12,8 @@
   /* variant */
   .primary {
     background-color: #008cba;
+    padding: 40px;
+
   }
   .secondary {
     background-color: #e7e7e7;
