@@ -6,7 +6,7 @@ import Notification from './components/Notifications/Notifications';
 function App() {
   return (
     <div className='App'>
-      <h1>CAO</h1>
+      <h1 className='title'>CAO HW - Storybook </h1>
       <h2>BUTTONS</h2>
       <Button variant='primary' size='large'>
         Primary
@@ -29,6 +29,7 @@ function App() {
           This is an info alert
         </Notification>
       </div>
+      <h2>HERO</h2>
       <div className='hero'>
         <div className='hero'>
           <Hero type='primary' title='Primary hero' subtitle='Primary subtitle' />
