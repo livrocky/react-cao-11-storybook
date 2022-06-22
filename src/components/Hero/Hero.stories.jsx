@@ -1,22 +1,26 @@
 import React from 'react';
-import Notification from './Hero';
+import Hero from './Hero';
 
 export default {
-  title: 'Notification',
-  component: Notification,
+  title: 'Hero',
+  component: Hero,
 };
 
-const Template = (args) => <Notification {...args} />;
+const Template = (args) => <Hero {...args} />;
 
-// funcijos kopija
-export const DangerAlertArgs = Template.bind({});
-DangerAlertArgs.args = {
-  variant: 'danger',
-  children: 'This is a danger alert',
+// funkcijos kopija
+export const PrimaryHeroArgs = Template.bind({});
+PrimaryHeroArgs.args = {
+  type: 'primary',
+  title: 'Primary title',
+  subtitle: 'Primary subtitle',
+  //   variant: 'primary',
 };
 
-export const WarningAlertArgs = Template.bind({});
-DangerAlertArgs.args = {
-  variant: 'warning',
-  children: 'This is warning alert',
+export const SecondaryHeroArgs = Template.bind({});
+SecondaryHeroArgs.args = {
+  type: 'secondary',
+  title: 'Secondary title',
+  subtitle: 'Secondary subtitle',
+  //   variant: 'secondary',
 };
