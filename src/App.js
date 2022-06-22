@@ -16,10 +16,18 @@ function App() {
       </Button>
       <h2>NOTIFICATIONS</h2>
       <div className='alerts'>
-        <Notification variant='success'>This is a success alert</Notification>
-        <Notification variant='danger'>This is a danger alert</Notification>
-        <Notification variant='warning'>This is a warning alert</Notification>
-        <Notification variant='info'>This is an info alert</Notification>
+        <Notification icon={'fa fa-check'} variant='success' cancel={'fa fa-times'}>
+          This is a success alert
+        </Notification>
+        <Notification icon={'fa fa-flag'} variant='danger' cancel={'fa fa-times'}>
+          This is a danger alert
+        </Notification>
+        <Notification icon={'fa fa-exclamation-triangle'} variant='warning' cancel={'fa fa-times'}>
+          This is a warning alert
+        </Notification>
+        <Notification icon={'fa fa-info'} variant='info' cancel={'fa fa-times'}>
+          This is an info alert
+        </Notification>
       </div>
       <div className='hero'>
         <div className='hero'>
