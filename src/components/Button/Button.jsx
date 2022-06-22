@@ -11,10 +11,12 @@ function Button({ children, variant = 'primary', size = 'medium', customFontSize
     </button>
   );
 }
+
 Button.propTypes = {
   children: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   variant: PropTypes.oneOf(['primary', 'secondary', 'danger']),
   customFontSize: PropTypes.number,
 };
+
 export default Button;

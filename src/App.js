@@ -10,9 +10,7 @@ function App() {
         Small btn
       </Button>
       <Button>Click me</Button>
-      <Button variant='kazkoks' size='didelis'>
-        kazkoks didelis
-      </Button>
+      <Button>ha</Button>
       <Button customFontSize={30}>customFontSize 30</Button>
     </div>
   );
