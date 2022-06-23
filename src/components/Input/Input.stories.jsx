@@ -29,6 +29,7 @@ const Template = (args) => (
 export const MainInput = Template.bind({});
 MainInput.args = {
   placeholder: 'Enter text here',
+  color: 'light',
 };
 export const DarkInput = Template.bind({});
 DarkInput.args = {
@@ -45,4 +46,9 @@ DarkTextArea.args = {
   ...MainInput.args,
   type: 'textarea',
   color: 'dark',
+};
+export const InputWithError = Template.bind({});
+InputWithError.args = {
+  value: 'JamesBond.lt',
+  errorMsg: 'Must be a valid Email',
 };
