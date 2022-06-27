@@ -40,6 +40,7 @@ export const MainInput = Template.bind({});
 MainInput.args = {
   placeholder: 'Enter text here',
   color: 'light',
+  onChange: (e) => console.log('enter'),
 };
 export const EmailInput = () => <Input value='james@example.com' color='light' type='email' />;
 
